@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções da Praiastur</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Script emailjs -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "P5aYQVn5pqGUcq6Bz",
+        });
+    })();
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="" class="home-img"> 
+            <!-- trocar o nome da classe depois para ela ter uma só -->
+        </a>
+
+        <div class="nav" data-aos="fade-down">
+            <a href="#home">Inicio</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Pousadas</a>
+            <a href="#contact">Avaliações</a>
+            <a href="#about">Sobre</a>
+        </div>
+
+        <div class="nav-responsive" data-aos="fade-down">
+            <a href="#home">Inicio</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Pousadas</a>
+            <a href="#contact">Avaliações</a>
+            <a href="#about">Sobre</a>
+        </div>
+
+        <div class="menu-hamburguer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Buenas, I'm</h3>
+            <h1>Bernardo Amaral</h1>
+            <h3>Full-stack <span>Developer</span></h3>
+
+            <p>
+                Sou um desenvolvedor Full-Stack dedicado a transformar ideias em soluções digitais inovadoras e eficazes. Com uma abordagem
+                cuidadosa tanto no front-end quanto no back-end, meu trabalho vai além de simplesmente codificar. Busco criar
+                experiências digitais que sejam intuitivas, funcionais e impactantes.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/praiasturoficial?igsh=NDVxenk3aGt1cDZj"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/praiasturoficial?mibextid=LQQJ4d"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.tiktok.com/@praiasturoficial?_t=8pzpHqVkrQb&_r=1"><i class='bx bxl-tiktok'></i></a>
+            </div>
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank" class="btn">Clique aqui</a>
+                </div>
+        </div>
+
+        <div class="home-img" data-aos="fade-up" data-aos-delay="300">
+            <img
+            data-aos="flip-up"
+            data-aos-delay="300"
+            data-aos-duration="1500" 
+            src="img/Praiastur.png" 
+            alt="Profile picture">
+        </div>
+
+    </section>
+    <!-- /home section -->
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2>Nossos Serviços <span>Residenciais</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-home-smile'></i>
+                <h3>Pousadas incríveis</h3>
+
+                <p>
+                    Profissional em criar websites que sejam bonitos, fáceis de usar e que funcionem bem em qualquer dispositivo. Tenho experiência em
+                    várias tecnologias, como PHP, JavaScript, Node, MySQL, React, HTML e CSS, o que me permite cuidar tanto do visual
+                    quanto da parte técnica. Gosto de pensar em soluções que tornem a navegação mais intuitiva e que realmente façam a
+                    diferença para quem usa.
+                </p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <h3>Próximo a praias</h3>
+
+                <p>
+                    Gosto de trabalhar nos bastidores, garantindo que tudo funcione de forma fluida e eficiente. Minha experiência com PHP,
+                    Node.js e MySQL me permite criar sistemas confiáveis e bem estruturados, focados em desempenho e estabilidade. Adoro
+                    encontrar soluções para desafios técnicos e me preocupo em deixar o código limpo e fácil de entender para outros
+                    desenvolvedores. No fim das contas, meu objetivo é facilitar o trabalho de quem está na linha de frente, para que tudo
+                    se conecte e funcione sem problemas
+                </p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-castle'></i>
+                <h3>Passeios em parques</h3>
+
+                <p>
+                    Adoro criar aplicativos que sejam práticos, intuitivos e que realmente melhorem o dia a dia das pessoas. Tenho
+                    experiência com o desenvolvimento de apps usando tecnologias como Flutter, Dart e back-ends robustos com PHP e Node.js.
+                    Gosto de pensar em cada detalhe, desde a performance até a interface, garantindo que o usuário tenha uma experiência
+                    suave e funcional. Além disso, me preocupo em deixar o código organizado e escalável para facilitar futuras melhorias e
+                    atualizações."
+                </p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- /services section -->
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Pousadas <span>Praiastur</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/apartamento 1.png" alt="apartamento 1">
+
+                <div class="portfolio-layer">
+                    <h4>ITAPEMA - SC</h4>
+
+                    <p>
+                        RESIDENCIAL SOL NASCENTE - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/apartamento 2.png" alt="apartamento 2">
+
+                <div class="portfolio-layer">
+                    <h4>BOMBINHAS - SC</h4>
+
+                    <p>
+                        RESIDENCIAL POR DO SOL - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/apartamento 3.png" alt="apartamento 3">
+
+                <div class="portfolio-layer">
+                    <h4>BOMBINHAS - SC</h4>
+
+                    <p>
+                        RESIDENCIAL BELLA FLOR - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/apartamento 4.png" alt="apartamento 4">
+
+                <div class="portfolio-layer">
+                    <h4>PORTO BELO - SC</h4>
+
+                    <p>
+                        RESIDENCIAL MARAZUL - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/apartamento 5.png" alt="apartamento 5">
+
+                <div class="portfolio-layer">
+                    <h4>BALNEÁRIO CAMBÚRIO - SC</h4>
+
+                    <p>
+                       RESIDENCIAL ÁGUAS CLARAS - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/apartamento 6.png" alt="apartamento 6">
+
+                <div class="portfolio-layer">
+                    <h4>GRAMADO - RS</h4>
+
+                    <p>
+                        RESIDENCIAL GRAMADO - ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                    <a href="#"><i class='fa-solid fa-users'></i></a>
+                    <a href="#"><i class='fa-solid fa-bed'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                    <a href="#"><i class='fa-solid fa-car'></i></a>
+                </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/apartamento 7.png" alt="apartamento 7">
+                
+                    <div class="portfolio-layer">
+                        <h4>ITAPEMA - SC</h4>
+                
+                        <p>
+                            SOL NASCENTE – CASA - ⭐⭐⭐⭐⭐
+                        </p>
+                
+                        <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                        <a href="#"><i class='fa-solid fa-users'></i></a>
+                        <a href="#"><i class='fa-solid fa-bed'></i></a>
+                        <a href="#"><i class='fa-solid fa-car'></i></a>
+                        <a href="#"><i class='fa-solid fa-car'></i></a>
+                    </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img src="img/apartamento 8.png" alt="apartamento 8">
+                    
+                        <div class="portfolio-layer">
+                            <h4>CANELA - RS</h4>
+                    
+                            <p>
+                                RESIDENCIAL CANELA - ⭐⭐⭐⭐⭐
+                            </p>
+                    
+                            <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                            <a href="#"><i class='fa-solid fa-users'></i></a>
+                            <a href="#"><i class='fa-solid fa-bed'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img src="img/apartamento 9.png" alt="apartamento 9">
+                    
+                        <div class="portfolio-layer">
+                            <h4>FLORIANÓPOLIS - SC</h4>
+                    
+                            <p>
+                                RESIDENCIAL NEVES - ⭐⭐⭐⭐⭐
+                            </p>
+                    
+                            <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                            <a href="#"><i class='fa-solid fa-users'></i></a>
+                            <a href="#"><i class='fa-solid fa-bed'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img src="img/apartamento 10.png" alt="apartamento 10">
+                    
+                        <div class="portfolio-layer">
+                            <h4>PALHOÇA - SC</h4>
+                    
+                            <p>
+                                UNIDADE PALHOÇA - ⭐⭐⭐⭐⭐
+                            </p>
+                    
+                            <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                            <a href="#"><i class='fa-solid fa-users'></i></a>
+                            <a href="#"><i class='fa-solid fa-bed'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img src="img/apartamento 14.png" alt="apartamento 11">
+                    
+                        <div class="portfolio-layer">
+                            <h4>BOMBINHAS - SC</h4>
+                    
+                            <p>
+                                RESIDENCIAL CORAL DOS MARES - ⭐⭐⭐⭐⭐
+                            </p>
+                    
+                            <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                            <a href="#"><i class='fa-solid fa-users'></i></a>
+                            <a href="#"><i class='fa-solid fa-bed'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img src="img/apartamento 12.png" alt="apartamento 12">
+                    
+                        <div class="portfolio-layer">
+                            <h4>CABO FRIO - SC</h4>
+                    
+                            <p>
+                                DUNAS - ⭐⭐⭐⭐⭐
+                            </p>
+                    
+                            <a href="#"><i class='fa-solid fa-umbrella-beach'></i></a>
+                            <a href="#"><i class='fa-solid fa-users'></i></a>
+                            <a href="#"><i class='fa-solid fa-bed'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                            <a href="#"><i class='fa-solid fa-car'></i></a>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /portfolio section -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2>Entre em <span>contato comigo!</span></h2>
+    
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" id="full_name" name="full_name" placeholder="Nome inteiro" required>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="input-box">
+                <input type="number" id="phone" name="phone" placeholder="Número de telefone" required>
+                <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+            </div>
+    
+            <textarea id="message" name="message" cols="30" rows="8" placeholder="Mensagem" required></textarea>
+    
+            <button type="submit" onclick="sendMail(Event)" class="btn">Enviar mensagem</button> <!-- Usando um button -->
+        </form>
+    </section>
+    <!-- /contact section -->
+
+     <!-- about section -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/Praiastur.png" alt="about">
+        </div>
+
+        <div class="about-content">
+            <h3>Sobre mim</h3>
+            <h1>Full-stack <span>Developer</span> and <span>Freelancer</span></h1>
+
+            <p>Seja você um parceiro em potencial ou alguém curioso para saber mais sobre meu trabalho, convido você a explorar meu
+            portfólio. Estou sempre aberto a novas oportunidades e conversas sobre tecnologias avançadas na programação e estruturação de softwares.
+            </p>
+
+            <a href="#" class="btn">Leia mais</a>
+        </div>
+     </section>
+     <!-- /about section -->
+
+     <footer>
+        <p>Direitos autorais &copy; 2024 por &lt;/Bernardo Amaral&gt;. Todos os direitos reservados.</p>
+     </footer>
+</body>
+    <script src="js/script.js"></script>
+    
+</html>
